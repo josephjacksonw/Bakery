@@ -12,9 +12,9 @@ namespace Store.Models.Tests
     [TestMethod]
     public void cost_returnPurchaseCost_True()
     {
-      Food bread = new Food();
-      bread.Name = "bread";
-      Assert.AreEqual(5, bread.cost(1));
+      Food bread = new Food("bread", 5, 3, 10);
+      //bread.Name = "bread";
+      Assert.AreEqual(20, bread.cost(6));
     }
   }
 }
