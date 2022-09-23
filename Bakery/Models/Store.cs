@@ -1,9 +1,3 @@
-// business file
-/*
-
-
-*/
-
 using System;
 using System.Collections.Generic;
 
@@ -13,10 +7,10 @@ namespace Store.Models
 {
   public class Bread
   {
-    public string Name { get; set; } // bread and pastry goes here
-    public int Price { get; set; } //individual item price
-    public int DealAmount { get; set; }//how many needed to get a deal
-    public int DealPrice { get; set; } // how much that deal costs
+    public string Name { get; set; }
+    public int Price { get; set; }
+    public int DealAmount { get; set; }
+    public int DealPrice { get; set; }
 
     public int cost(int amount)
     {  
@@ -43,10 +37,10 @@ namespace Store.Models
   }
   public class Pastry
   {
-    public string Name { get; set; } // bread and pastry goes here
-    public int Price { get; set; } //individual item price
-    public int DealAmount { get; set; }//how many needed to get a deal
-    public int DealPrice { get; set; } // how much that deal costs
+    public string Name { get; set; }
+    public int Price { get; set; }
+    public int DealAmount { get; set; }
+    public int DealPrice { get; set; }
 
     public int cost(int amount)
     {  
