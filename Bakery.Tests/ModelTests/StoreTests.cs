@@ -13,8 +13,9 @@ namespace Store.Models.Tests
     public void cost_returnPurchaseCost_True()
     {
       Food bread = new Food("bread", 5, 3, 10);
-      //bread.Name = "bread";
+      Food pastry = new Food("pastry", 2, 3, 5);
       Assert.AreEqual(20, bread.cost(6));
+      Assert.AreEqual(12, pastry.cost(7));
     }
   }
 }
