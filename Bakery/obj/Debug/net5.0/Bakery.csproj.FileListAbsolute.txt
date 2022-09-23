@@ -1,0 +1,12 @@
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.csproj.AssemblyReference.cache
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.AssemblyInfoInputs.cache
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.AssemblyInfo.cs
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\shabr\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.deps.json
+C:\Users\shabr\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.dll
+C:\Users\shabr\Desktop\Bakery\Bakery\bin\Debug\net5.0\ref\Bakery.dll
+C:\Users\shabr\Desktop\Bakery\Bakery\bin\Debug\net5.0\Bakery.pdb
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.dll
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\ref\Bakery.dll
+C:\Users\shabr\Desktop\Bakery\Bakery\obj\Debug\net5.0\Bakery.pdb
