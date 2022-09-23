@@ -11,9 +11,8 @@ namespace Store
 	{
 		public static void Main()
     {
-      Food bread = new Food("bread", 5, 3, 10);
-      Food pastry = new Food("pastry", 2, 3, 5);
-      List<Food> Foods = new List<Food>() {bread, pastry};
+      Bread sourdough = new Bread("Sourdough", 5, 3, 10);
+      Pastry donut = new Pastry("Donut", 2, 3, 5);
       Console.WriteLine("Welcome to Pierre's Bakery, bread is $5 a loaf but every 2 you buy, you can get a 3rd for free. Pastries are $2 but you can also buy 3 pastries for $5");
       
       Console.WriteLine("How many loaves of bread would you like to order?");
@@ -37,14 +36,28 @@ namespace Store
           buul = true;
         }
       }
-    
-      
-
-      
-      
+      buul = true;
+      int pastryNum = 0;
       Console.WriteLine("How many pastries would you like to order?");
-      int pastryNum = Convert.ToInt32(Console.ReadLine());
-      int orderTotal = bread.cost(breadNum) + pastry.cost(pastryNum);
+      while (buul)
+      {
+        buul = false;
+        try
+        {
+          pastryNum = Convert.ToInt32(Console.ReadLine());
+        }
+        catch
+        {
+          Console.WriteLine("Sorry that's not an integer number. Enter 0 if you wouldn't like to order any pastries");
+          buul = true;
+        }
+        if (pastryNum < 0)
+        {
+          Console.WriteLine("Sorry we can't buy your pastries, how many of our pastries would you like to buy?");
+          buul = true;
+        }
+      }
+      int orderTotal = sourdough.cost(breadNum) + donut.cost(pastryNum);
       Console.WriteLine("Your order of " + breadNum + " loaves and " + pastryNum + " pastries is: $" + orderTotal);
 
       /*
