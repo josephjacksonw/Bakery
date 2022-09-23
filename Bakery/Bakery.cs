@@ -1,24 +1,29 @@
 // ui file
-/*
+
 using System;
 using System.Collections.Generic;
 
-using Class.Models;
+using Store.Models;
 
-namespace Class
+namespace Store
 {
 	public class Program
 	{
 		public static void Main()
     {
-      Console.WriteLine("Enter a phrase, the word you would like to replace, and it's replacement");
-      Console.WriteLine("Phrase:");
-      string phrase = Console.ReadLine();
-      Console.WriteLine("Word to replace:");
-      string oldWord = Console.ReadLine();
-      Console.WriteLine("New Word:");
-      string newWord = Console.ReadLine();
+      Food bread = new Food("bread", 5, 3, 10);
+      Food pastry = new Food("pastry", 2, 3, 5);
+      List<Food> Foods = new List<Food>() {bread, pastry};
+      Console.WriteLine("Welcome to Pierre's Bakery, bread is $5 a loaf but every 2 you buy, you can get a 3rd for free. Pastries are $2 but you can also buy 3 pastries for $5");
 
+      Console.WriteLine("How many loaves of bread would you like to order?");
+      int breadNum = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("How many pastries would you like to order?");
+      int pastryNum = Convert.ToInt32(Console.ReadLine());
+      int orderTotal = bread.cost(breadNum) + pastry.cost(pastryNum);
+      Console.WriteLine("Your order of " + breadNum + " loaves and " + pastryNum + " pastries is: $" + orderTotal);
+
+      /*
       Replacer variable = new Replacer();
       bool buul = true;
       while (buul)
@@ -39,8 +44,7 @@ namespace Class
           Console.WriteLine("sorry, please enter s of f for serious or funny");
           buul = true;
         }
-      }
+      }*/
     }
   }
 }
-*/

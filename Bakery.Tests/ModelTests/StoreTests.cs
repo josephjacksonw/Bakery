@@ -1,5 +1,5 @@
 // test file
-//test file
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Store.Models;
