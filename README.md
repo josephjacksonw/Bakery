@@ -21,6 +21,7 @@ _Using C#, this program will ask the user how many of each item available they w
 * _Clone the repository to your desktop_
 * _Open the repository in Visual Studio Code_
 * _Open your terminal and navigate to the Bakery/Bakery folder_
+* _Run "$ dotnet build" to build the necessary files to view the project_
 * _Run "$ dotnet run" to run and view the project_
  
 ## Known Bugs
